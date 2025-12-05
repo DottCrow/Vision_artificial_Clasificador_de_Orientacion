@@ -8,25 +8,6 @@ Este proyecto implementa un sistema de visión artificial en tiempo real capaz d
 
 El sistema utiliza **YOLOv8** (Ultralytics) para la detección y **OpenCV** para el procesamiento de imagen y visualización.
 
-### Funcionalidades principales:
-* **Detección de objetos:** Utiliza el modelo `yolov8n.pt` para inferencia rápida.
-* **Clasificación geométrica:** Determina si el objeto está:
-    * Horizontal
-    * Vertical
-    * Inclinado / Cuadrado
-* **Filtro inteligente:** Excluye automáticamente la detección de personas para centrarse en objetos.
-* **Feedback visual:** Muestra nombre, confianza, orientación y guías visuales (flechas o cruces) en pantalla.
-
-
-## 🚀 Instalación y Requisitos
-
-1. Clonar el repositorio.
-2. Instalar las dependencias:
-   ```bash
-   pip install -r requirements.txt
-
-
----
 
 ## 🧠 ¿Cómo funciona?
 
@@ -50,5 +31,17 @@ El sistema dibuja indicadores sobre la imagen original:
 * 🟨 **Inclinado:** Color Amarillo + Cruz Diagonal (`❌`)
 
 > **🚫 Nota:** El sistema ignora la clase "person" para evitar interferencias del usuario frente a la cámara.
+
+
+## 🚀 Instalación y Requisitos
+
+1. Clonar el repositorio.
+2. Instalar las dependencias:
+   ```bash
+   pip install -r requirements.txt
+
+
+---
+
 
 ---
