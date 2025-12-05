@@ -52,10 +52,3 @@ El sistema dibuja indicadores sobre la imagen original:
 > **🚫 Nota:** El sistema ignora la clase "person" para evitar interferencias del usuario frente a la cámara.
 
 ---
-
-## 📦 Requisitos e Instalación
-
-Asegúrate de tener Python instalado. Luego, instala las dependencias necesarias:
-
-```bash
-pip install opencv-python ultralytics numpy
