@@ -1,4 +1,4 @@
-# 📐 Clasificador de Orientación con YOLOv8
+# 📐 Visión Artiicial - Clasificador de Orientación con YOLOv8
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![YOLOv8](https://img.shields.io/badge/YOLO-v8-green) ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-red)
 
